@@ -1,11 +1,14 @@
 /* GTVET-IDMS  Application Styles */
 
-/* ---- Login page ---- */
-.login-container {
+/* ---- Login overlay (full-screen, sits above the dashboard) ---- */
+#login_overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: linear-gradient(135deg, #006b3c 0%, #007a44 60%, #004d2b 100%);
 }
 

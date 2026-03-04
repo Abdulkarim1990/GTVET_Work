@@ -21,6 +21,8 @@ source("utils/validation.R")
 source("modules/auth/auth_module.R")
 source("modules/m1_biodata/m1_module.R")
 source("modules/m2_staff/m2_module.R")
+source("modules/home/home_module.R")
+source("modules/submissions/submissions_module.R")
 
 # ------ Create shared DB connection pool ---------------------
 pool <- make_pool(DB_CONFIG)
